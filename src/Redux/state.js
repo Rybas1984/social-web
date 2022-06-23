@@ -43,7 +43,7 @@ export const addPost = () => {
     let newPost = {
         id: 8,
         message: state.profilePage.newPostText,
-        like: 0,
+        like: 0
     };
     state.profilePage.postData.push(newPost);
     state.profilePage.newPostText ='';
