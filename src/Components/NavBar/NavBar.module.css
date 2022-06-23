@@ -1,0 +1,28 @@
+.navBar {
+  background-color: darkgray;
+    grid-area: n;
+  padding: 20px;
+  font-size: 20px;
+  }
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+.navBar a:hover {
+  color: blue;
+}
+.navBar .active {
+  color: gold;
+}
+.setting {
+  margin-top: 20px;
+}
+.friends h2 {
+  /*text-align: center;*/
+  font-size: 35px;
+}
+.friendsItems {
+  display: flex;
+}
+
+

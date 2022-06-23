@@ -1,0 +1,13 @@
+
+.img_Header {
+    width: 100%;
+}
+.posts {
+    padding: 20px;
+}
+.newPost {
+    margin: 10px;
+}
+.newPost p {
+    margin: 0;
+}
