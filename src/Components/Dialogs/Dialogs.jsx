@@ -6,8 +6,8 @@ import React from "react";
 function Dialogs(props) {
     let state = props.dialogsPage;
 
-    let dialogElements = state.dialogData.map(d => <DialogItem id={d.id} name={d.name} avaDialog={d.avaDialog}/>);
-    let messageElements = state.messageData.map(m => <Message message={m.message}/>);
+    let dialogElements = state.dialogData.map(d => <DialogItem id={d.id} key={d.id} name={d.name} avaDialog={d.avaDialog}/>);
+    let messageElements = state.messageData.map(m => <Message key={m.id} message={m.message}/>);
     let newMessageBody = state.newMessageBody;
 
     let onSendMessageClick = () => {
