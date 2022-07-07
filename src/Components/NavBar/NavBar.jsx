@@ -21,6 +21,9 @@ function NavBar(props) {
             <div>
                 <NavLink to="/music" className={navData => navData.isActive ? s.active : ''}>Music</NavLink>
             </div>
+            <div>
+                <NavLink to="/users" className={navData => navData.isActive ? s.active : ''}>Users</NavLink>
+            </div>
             <div className={s.setting}>
                 <NavLink to="/settings" className={navData => navData.isActive ? s.active : ''}>Settings</NavLink>
             </div>

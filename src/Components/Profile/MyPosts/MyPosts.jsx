@@ -7,7 +7,7 @@ import {addPostActionCreator, updateNewPostText} from "../../../Redux/profile-re
 const MyPosts = (props) => {
     debugger
     let state = props.posts;
-    let postElements = state.map(p => <Post name={p.message} like={p.like}/>);
+    let postElements = state.map(p => <Post name={p.message} key={p.id} like={p.like}/>);
 
     let newPostElement = React.createRef(null);
     let addPost = () => {

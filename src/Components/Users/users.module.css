@@ -1,0 +1,12 @@
+.imgAva {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+span {
+    margin-left: 10px;
+}
+.selectedPage {
+    font-weight: bold;
+    color: gold;
+}
